@@ -48,10 +48,13 @@ img{
 }
 
 section{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 900px;
+    margin: auto;
 }
 
 article{
@@ -155,7 +158,8 @@ a:hover{
 
 
 /* Media Query */
-@media(min-width:480px){
+@media(min-width:768px){
+
     section{
         flex-direction: row;
         flex-wrap: wrap;
@@ -167,6 +171,7 @@ a:hover{
     
     footer{
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: center;
+     align-items: center;
     }
 }
