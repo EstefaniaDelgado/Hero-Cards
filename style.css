@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header p{
+    background-color: #D1891C;
+    padding: 5px;
+}
+
+header h1{
+    background-color: #00669F;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px ;
+}
+
+/* main */
+/* cards */
+.container-icons-hearts{
+    position: relative;
+}
+
+.fa-regular, .fa-solid{
+    position: absolute;
+}
+
+.fa-heart{
+    color: red;
+    font-size: 20px;
+    padding: 10px 15px;    
+}
+
+.fa-solid{
+    opacity: 0;
+}
+
+img{
+    display: block;
+    height: 135px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    margin: 25px;
+    background-color: #F3F3F3;
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article h2{
+    margin-top: 75px;
+}
+
+article p{
+    padding: 10px 20px;
+}
+
+article button{
+    border: none;
+    color: #fff;
+    background-color: #00669F;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin: 10px 0 20px 0;
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.heroe-card-one{
+    background-image: url('./img/Fondo-batman.png'); 
+}
+
+.heroe-card-two{
+    background-image: url('./img/fondo-mujerMaravilla.png');
+
+}
+
+.heroe-card-three{
+    background-image: url('./img/849bfede3a5193c34ab8a00379e64fa2\ 1.png');
+}
+
+.heroe-card-four{
+    background-image: url('./img/Mask\ Group.png');
+}
+
+/* footer */
+footer{
+    background-color: #00669F;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.rigths{
+    margin: auto;
+}
+
+footer .gitHub{
+    font-weight:700;
+    font-size: larger;
+}
+
+.gitHub a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hover */
+.container-icons-hearts:hover .fa-solid{
+  opacity: 1;
+}
+
+button:hover{
+    background-color: #3a7597;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* Media Query */
+@media(min-width:480px){
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    article{
+        width: 360px;
+    }
+    
+    footer{
+     flex-direction: row;
+     justify-content: space-between;
+    }
+}
