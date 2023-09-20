@@ -32,7 +32,7 @@ header h1{
 
 .fa-heart{
     color: red;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 15px;    
 }
 
@@ -48,7 +48,7 @@ img{
 }
 
 section{
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,6 +167,10 @@ a:hover{
 
     article{
         width: 360px;
+    }
+
+    .fa-heart{
+        font-size: 30px;
     }
     
     footer{
