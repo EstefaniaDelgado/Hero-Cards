@@ -8,16 +8,17 @@
 }
 
 /* header */
+
 header p{
     background-color: #D1891C;
-    padding: 5px;
+    padding: 10px;
 }
 
 header h1{
     background-color: #00669F;
     color: #fff;
     font-weight: 400;
-    padding: 5px ;
+    padding: 10px;
 }
 
 /* main */
